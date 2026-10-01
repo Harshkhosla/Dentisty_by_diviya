@@ -48,7 +48,7 @@ export default function Contact() {
         <div className="rounded-3xl bg-cream border border-border/50 p-8 md:p-10">
           <h2 className="font-serif text-3xl">Visit us</h2>
           <p className="mt-4 text-muted-foreground leading-relaxed">
-            Sadhnani's Dental Care
+            Dentistry by Divya
             <br />
             Shop No 22, Rupal Market,
             <br />

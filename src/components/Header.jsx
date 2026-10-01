@@ -27,13 +27,13 @@ export default function Header() {
         <Link to="/" className="flex items-center gap-3">
           <img
             src={logo}
-            alt="Sadhnani's Dental Care"
+            alt="Dentistry by Divya"
             className="h-12 w-12 rounded-full object-cover ring-1 ring-gold/40"
           />
           <span className="font-serif text-lg leading-tight">
-            Sadhnani's
+            Dentistry
             <span className="block text-[10px] tracking-[0.3em] uppercase text-muted-foreground -mt-1 font-sans">
-              Dental Care
+              by Divya
             </span>
           </span>
         </Link>

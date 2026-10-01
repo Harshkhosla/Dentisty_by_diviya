@@ -6,7 +6,7 @@ import rootcanal from './assets/service-rootcanal.jpg'
 import biomimetic from './assets/service-biomimetic.jpg'
 
 export const CLINIC = {
-  name: "Sadhnani's Dental Care",
+  name: "Dentistry by Divya",
   doctors: 'Dr. Gunja Sadhnani and Dr. Sunny Sadhnani',
   address:
     'Shop No 22, Rupal Market, Opposite Lakshya Indane Gas Agency, Ramnagariya Road, Jagatpura Getor, Jaipur',
@@ -87,7 +87,7 @@ export const TESTIMONIALS = [
   {
     title: 'Wonderful Experience!',
     quote:
-      "Sadhnani's Dental Care is unlike any dental clinic I've been to. The doctors and their team made me feel so comfortable, and my smile has never looked better!",
+      "Dentistry by Divya is unlike any dental clinic I've been to. The doctors and their team made me feel so comfortable, and my smile has never looked better!",
     name: 'Riya S.',
   },
   {

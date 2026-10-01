@@ -27,7 +27,7 @@ const VALUES = [
   },
   {
     title: 'Excellence Through Innovation',
-    text: "With advanced techniques and the latest dental innovations, Sadhnani's Dental Care ensures precise, pain-free, and lasting results. Our goal is to combine modern expertise with boutique care, giving you a smile that's as healthy as it is confident.",
+    text: "With advanced techniques and the latest dental innovations, Dentistry by Divya ensures precise, pain-free, and lasting results. Our goal is to combine modern expertise with boutique care, giving you a smile that's as healthy as it is confident.",
   },
 ]
 
@@ -84,7 +84,7 @@ export default function Home() {
               <img src={logo} alt="" className="h-10 w-10 rounded-full" />
             </div>
             <p className="absolute bottom-6 left-6 right-16 text-primary-foreground text-sm leading-relaxed">
-              At Sadhnani's Dental Care, every smile deserves precision, comfort, and elegance.
+              At Dentistry by Divya, every smile deserves precision, comfort, and elegance.
             </p>
             <Link
               to="/services"
@@ -103,7 +103,7 @@ export default function Home() {
           <div>
             <Eyebrow>About Clinic</Eyebrow>
             <h2 className="font-serif text-4xl md:text-5xl mt-4 leading-[1.05]">
-              Sadhnani's Dental Care is a modern practice dedicated to exceptional care in a welcoming environment.
+              Dentistry by Divya is a modern practice dedicated to exceptional care in a welcoming environment.
             </h2>
             <p className="mt-6 text-muted-foreground max-w-lg leading-relaxed">
               Our clinic is equipped with the latest technology and staffed by highly trained professionals who
@@ -173,7 +173,7 @@ export default function Home() {
             <div className="mt-4 flex items-center justify-between gap-4 rounded-full bg-cream border border-border/50 px-6 py-4">
               <div>
                 <p className="text-xs tracking-[0.3em] uppercase">Dr. Gunja &amp; Dr. Sunny Sadhnani</p>
-                <p className="text-xs text-muted-foreground mt-1">FOUNDERS · SADHNANI'S DENTAL CARE</p>
+                <p className="text-xs text-muted-foreground mt-1">FOUNDERS · DENTISTRY BY DIVYA</p>
               </div>
               <img src={logo} alt="" className="h-10 w-10 rounded-full" />
             </div>
@@ -226,7 +226,7 @@ export default function Home() {
               personalized care in a relaxed and friendly environment.
             </p>
             <p className="mt-3 text-muted-foreground max-w-lg leading-relaxed">
-              Experience a boutique for your teeth, only at Sadhnani's Dental Care.
+              Experience a boutique for your teeth, only at Dentistry by Divya.
             </p>
             <ul className="mt-8 grid sm:grid-cols-2 gap-x-6 gap-y-3 text-sm">
               {HIGHLIGHTS.map((h) => (
@@ -252,7 +252,7 @@ export default function Home() {
           <div>
             <h3 className="font-serif text-3xl md:text-4xl">Schedule your visit with us today!</h3>
             <p className="mt-2 text-muted-foreground max-w-xl">
-              Our dedicated team at Sadhnani's Dental Care is here to provide you with expert dental care in a
+              Our dedicated team at Dentistry by Divya is here to provide you with expert dental care in a
               comfortable and welcoming environment.
             </p>
           </div>

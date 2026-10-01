@@ -14,7 +14,7 @@ export default function About() {
           A boutique practice, thoughtfully designed around you.
         </h1>
         <p className="mt-8 max-w-2xl text-muted-foreground leading-relaxed">
-          Sadhnani's Dental Care is a modern practice dedicated to exceptional care in a welcoming environment. Our
+          Dentistry by Divya is a modern practice dedicated to exceptional care in a welcoming environment. Our
           clinic is equipped with the latest technology and staffed by highly trained professionals who prioritize your
           comfort and well-being.
         </p>
