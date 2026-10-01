@@ -1,4 +1,4 @@
-# Dentisty_by_diviya
+# Dentistry by Divya
 
 React website for Sadhnani's Dental Care (Jaipur), built with Vite, React Router and Tailwind CSS v4.
 
