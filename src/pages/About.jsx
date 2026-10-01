@@ -28,13 +28,13 @@ export default function About() {
       <section className="container-x grid md:grid-cols-2 gap-14 items-center">
         <img src={doctor} alt={CLINIC.doctors} loading="lazy" className="rounded-3xl aspect-[3/4] object-cover w-full" />
         <div>
-          <Eyebrow>The Founders</Eyebrow>
+          <Eyebrow>The Founder</Eyebrow>
           <h2 className="font-serif text-4xl md:text-5xl mt-3 leading-[1.05]">
-            Dr. Gunja Sadhnani &amp; Dr. Sunny Sadhnani
+            Dr. Divya
           </h2>
           <p className="mt-2 text-sm tracking-[0.3em] uppercase text-muted-foreground">Boutique Dentistry · Jaipur</p>
           <p className="mt-6 text-muted-foreground leading-relaxed">
-            {CLINIC.doctors} blend advanced dental care with a personal, boutique approach. Their practice is built on a
+            {CLINIC.doctors} blends advanced dental care with a personal, boutique approach. The practice is built on a
             simple belief: every patient deserves to feel cared for, comfortable, and confident in their smile.
           </p>
           <Link

@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import Eyebrow from '../components/Eyebrow.jsx'
 import ServiceCard from '../components/ServiceCard.jsx'
 import { CLINIC, SERVICES, SERVICE_TAGS, TESTIMONIALS } from '../data.js'
-import logo from '../assets/logo.jpeg'
+import logo from '../assets/logo.svg'
 import heroSmile from '../assets/hero-smile.jpg'
 import clinic1 from '../assets/clinic-1.jpg'
 import clinic2 from '../assets/clinic-2.jpg'
@@ -172,16 +172,16 @@ export default function Home() {
             </div>
             <div className="mt-4 flex items-center justify-between gap-4 rounded-full bg-cream border border-border/50 px-6 py-4">
               <div>
-                <p className="text-xs tracking-[0.3em] uppercase">Dr. Gunja &amp; Dr. Sunny Sadhnani</p>
-                <p className="text-xs text-muted-foreground mt-1">FOUNDERS · DENTISTRY BY DIVYA</p>
+                <p className="text-xs tracking-[0.3em] uppercase">Dr. Divya</p>
+                <p className="text-xs text-muted-foreground mt-1">FOUNDER · DENTISTRY BY DIVYA</p>
               </div>
               <img src={logo} alt="" className="h-10 w-10 rounded-full" />
             </div>
           </div>
           <div className="order-1 md:order-2">
-            <h2 className="font-serif text-4xl md:text-6xl leading-[1.02]">Meet the Smile Curators</h2>
+            <h2 className="font-serif text-4xl md:text-6xl leading-[1.02]">Meet the Smile Curator</h2>
             <p className="mt-6 text-muted-foreground leading-relaxed max-w-lg">
-              {CLINIC.doctors} are dedicated to blending advanced dental care with a personal, boutique approach. Their
+              {CLINIC.doctors} is dedicated to blending advanced dental care with a personal, boutique approach. The
               goal is simple: to make every patient feel cared for, comfortable, and confident in their smile.
             </p>
           </div>

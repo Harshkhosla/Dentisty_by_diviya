@@ -7,7 +7,7 @@ import biomimetic from './assets/service-biomimetic.jpg'
 
 export const CLINIC = {
   name: "Dentistry by Divya",
-  doctors: 'Dr. Gunja Sadhnani and Dr. Sunny Sadhnani',
+  doctors: 'Dr. Divya',
   address:
     'Shop No 22, Rupal Market, Opposite Lakshya Indane Gas Agency, Ramnagariya Road, Jagatpura Getor, Jaipur',
   phone: '+91 88758 63838',
@@ -87,7 +87,7 @@ export const TESTIMONIALS = [
   {
     title: 'Wonderful Experience!',
     quote:
-      "Dentistry by Divya is unlike any dental clinic I've been to. The doctors and their team made me feel so comfortable, and my smile has never looked better!",
+      "Dentistry by Divya is unlike any dental clinic I've been to. Dr. Divya and the team made me feel so comfortable, and my smile has never looked better!",
     name: 'Riya S.',
   },
   {
@@ -99,7 +99,7 @@ export const TESTIMONIALS = [
   {
     title: 'Amazing Experience!',
     quote:
-      'Dr. Gunja and Dr. Sunny truly create a boutique experience for your teeth. Every step was explained, and I felt confident throughout my smile makeover.',
+      'Dr. Divya truly creates a boutique experience for your teeth. Every step was explained, and I felt confident throughout my smile makeover.',
     name: 'Sneha P.',
   },
 ]
