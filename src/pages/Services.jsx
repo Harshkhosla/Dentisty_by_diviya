@@ -7,10 +7,15 @@ export default function Services() {
   return (
     <div>
       <section className="container-x pt-20 pb-14">
-        <Eyebrow>Our Services</Eyebrow>
+        <Eyebrow>Our Core Services</Eyebrow>
         <h1 className="font-serif text-5xl md:text-7xl mt-4 max-w-4xl leading-[1.02]">
-          A full spectrum of care, delivered the boutique way.
+          What Your Smile Deserves from Us
         </h1>
+        <p className="mt-8 max-w-2xl text-muted-foreground leading-relaxed">
+          From routine check-ups to complex procedures, we're dedicated to keeping your oral health in top shape and
+          your smile confident. Every treatment is delivered with attention to detail, advanced technology, and
+          boutique-style care.
+        </p>
       </section>
 
       <section className="container-x pb-24 grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
@@ -21,9 +26,14 @@ export default function Services() {
 
       <section className="container-x">
         <div className="rounded-3xl bg-primary text-primary-foreground p-10 md:p-16 flex flex-wrap items-center justify-between gap-6">
-          <h2 className="font-serif text-3xl md:text-4xl max-w-xl">Not sure what you need? Let's talk.</h2>
+          <div className="max-w-xl">
+            <h2 className="font-serif text-3xl md:text-4xl">Schedule an appointment with us today!</h2>
+            <p className="mt-3 text-sm opacity-80 leading-relaxed">
+              Whether it's a routine visit or an advanced procedure, your oral health is in good hands with us.
+            </p>
+          </div>
           <Link to="/contact-us" className="rounded-full bg-primary-foreground text-primary px-7 py-4 text-sm">
-            Book Consultation →
+            Book Appointment →
           </Link>
         </div>
       </section>

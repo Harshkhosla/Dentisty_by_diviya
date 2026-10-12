@@ -12,11 +12,13 @@ const FIELDS = [
 export default function Contact() {
   const [sent, setSent] = useState(false)
 
-  // No backend yet: hand the request off to the clinic's inbox via the user's mail client.
+  // No backend yet: hand the request off to the clinic's WhatsApp with the details pre-filled.
   function handleSubmit(e) {
     e.preventDefault()
     const data = Object.fromEntries(new FormData(e.currentTarget))
-    const body = [
+    const text = [
+      'Appointment request',
+      '',
       `Name: ${data.name}`,
       `Phone: ${data.phone}`,
       `Email: ${data.email || '-'}`,
@@ -24,9 +26,7 @@ export default function Contact() {
       '',
       data.message || '',
     ].join('\n')
-    window.location.href = `mailto:${CLINIC.email}?subject=${encodeURIComponent(
-      'Appointment request',
-    )}&body=${encodeURIComponent(body)}`
+    window.open(`https://wa.me/${CLINIC.whatsapp}?text=${encodeURIComponent(text)}`, '_blank', 'noopener')
     setSent(true)
   }
 
@@ -35,9 +35,16 @@ export default function Contact() {
       <section className="container-x pt-20 pb-10">
         <Eyebrow>Get in Touch</Eyebrow>
         <h1 className="font-serif text-5xl md:text-7xl mt-4 max-w-4xl leading-[1.02]">
-          We're committed to providing you with care and support.
+          Get Started on Your Smile Journey
         </h1>
         <p className="mt-8 max-w-2xl text-muted-foreground leading-relaxed">
+          Reach out to book an appointment or ask about any dental concern — a healthier smile starts with a simple
+          message.
+        </p>
+        <h2 className="font-serif text-3xl md:text-4xl mt-12 max-w-2xl">
+          We're committed to providing you with care and support.
+        </h2>
+        <p className="mt-4 max-w-2xl text-muted-foreground leading-relaxed">
           Whether you have questions about our services, need to schedule an appointment, or want to learn more about
           improving your oral health, we're just a message or call away. Our team is available Monday through Friday,
           10:00 AM to 7:00 PM.
@@ -89,11 +96,11 @@ export default function Contact() {
               <textarea name="message" rows={4} className="input mt-2 resize-none" />
             </label>
             <button className="mt-2 rounded-full bg-primary-foreground text-primary px-7 py-4 text-sm w-full">
-              Send request
+              Send on WhatsApp
             </button>
             {sent && (
               <p className="text-sm opacity-80 text-center">
-                Thanks! Your email app should open with the request — just hit send.
+                Thanks! WhatsApp should open with your request — just hit send.
               </p>
             )}
           </div>

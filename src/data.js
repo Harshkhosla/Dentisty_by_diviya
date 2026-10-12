@@ -11,6 +11,8 @@ export const CLINIC = {
   address:
     'Shop No 22, Rupal Market, Opposite Lakshya Indane Gas Agency, Ramnagariya Road, Jagatpura Getor, Jaipur',
   phone: '+91 88758 63838',
+  // Appointment requests are sent here via WhatsApp (digits only, with country code).
+  whatsapp: '919828391374',
   email: 'hello@sadhnanisdental.com',
   hours: 'Mon–Fri · 10:00 AM – 7:00 PM',
   mapsUrl: 'https://maps.google.com/?q=Rupal+Market+Ramnagariya+Road+Jagatpura+Jaipur',
@@ -69,17 +71,32 @@ export const SERVICES = [
   {
     title: 'Smile Makeovers',
     img: cosmetic,
-    short: 'Ceramic veneers and crowns crafted for a natural, radiant result.',
+    short: 'Custom-designed veneers, crowns, and dentures that look and feel natural.',
   },
   {
     title: 'Orthodontic Braces & Clear Aligners',
     img: digital,
-    short: 'Modern orthodontics — traditional braces and near-invisible aligners.',
+    short: 'Straighten your teeth with aesthetic braces or near-invisible clear aligners.',
   },
   {
     title: 'Dental Implants',
     img: biomimetic,
-    short: 'Replace missing teeth with lifelike, long-lasting implant solutions.',
+    short: 'Durable, natural-looking replacements for missing teeth.',
+  },
+  {
+    title: 'Full Mouth Rehabilitation',
+    img: preventive,
+    short: 'Comprehensive treatment plans that restore function, aesthetics, and balance to your entire mouth.',
+  },
+  {
+    title: 'Wisdom Tooth Extraction',
+    img: rootcanal,
+    short: 'Safe, comfortable extractions to relieve pain and prevent future problems.',
+  },
+  {
+    title: 'Teeth Whitening',
+    img: cosmetic,
+    short: 'In-clinic or take-home whitening for a brighter smile that lasts.',
   },
 ]
 
