@@ -10,7 +10,7 @@ export const CLINIC = {
   doctors: 'Dr. Divya',
   address:
     'Shop No 22, Rupal Market, Opposite Lakshya Indane Gas Agency, Ramnagariya Road, Jagatpura Getor, Jaipur',
-  phone: '+91 88758 63838',
+  phone: '+91 98283 91374',
   // Appointment requests are sent here via WhatsApp (digits only, with country code).
   whatsapp: '919828391374',
   email: 'hello@sadhnanisdental.com',
