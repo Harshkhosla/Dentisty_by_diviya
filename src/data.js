@@ -1,26 +1,30 @@
 import cosmetic from './assets/service-cosmetic.jpg'
-import digital from './assets/service-digital.jpg'
 import preventive from './assets/service-preventive.jpg'
 import child from './assets/service-child.jpg'
 import rootcanal from './assets/service-rootcanal.jpg'
 import biomimetic from './assets/service-biomimetic.jpg'
+import makeover from './assets/service-makeover.jpg'
+import braces from './assets/service-braces.jpg'
+import implants from './assets/service-implants.jpg'
+import rehab from './assets/service-rehab.jpg'
+import wisdom from './assets/service-wisdom.jpg'
+import whitening from './assets/service-whitening.jpg'
 
 export const CLINIC = {
   name: "Dentistry by Divya",
   doctors: 'Dr. Divya',
   address:
-    'Shop No 22, Rupal Market, Opposite Lakshya Indane Gas Agency, Ramnagariya Road, Jagatpura Getor, Jaipur',
-  phone: '+91 98283 91374',
+    '5/97 A, Bhawani Singh Lane, C-Scheme, Jaipur',
+  phone: '+91 96600 25726',
   // Appointment requests are sent here via WhatsApp (digits only, with country code).
-  whatsapp: '919828391374',
-  email: 'hello@sadhnanisdental.com',
+  whatsapp: '919660025726',
+  email: 'dentistrybydivya1928@gmail.com',
   hours: 'Mon–Fri · 10:00 AM – 7:00 PM',
-  mapsUrl: 'https://maps.google.com/?q=Rupal+Market+Ramnagariya+Road+Jagatpura+Jaipur',
+  mapsUrl: 'https://maps.google.com/?q=5%2F97+A+Bhawani+Singh+Lane+C-Scheme+Jaipur',
 }
 
 export const SERVICE_TAGS = [
   'Cosmetic Dentistry',
-  'Digital Dentistry',
   'Preventive & Restorative Care',
   'Child Dentistry',
   'Root Canal Treatment',
@@ -37,12 +41,6 @@ export const SERVICES = [
     img: cosmetic,
     home: "Enhance your smile's appearance with advanced aesthetic solutions tailored to your facial harmony.",
     short: "Enhance your smile's appearance with advanced aesthetic solutions tailored to your facial harmony.",
-  },
-  {
-    title: 'Digital Dentistry',
-    img: digital,
-    home: 'Enjoy faster, more precise treatments using 3D scanning, digital X-rays, and computer-aided design systems.',
-    short: 'Faster, more precise treatments using 3D scanning, digital X-rays, and computer-aided design.',
   },
   {
     title: 'Preventive & Restorative Care',
@@ -70,32 +68,33 @@ export const SERVICES = [
   },
   {
     title: 'Smile Makeovers',
-    img: cosmetic,
+    img: makeover,
+    home: 'Transform your smile with custom-designed veneers, crowns, and dentures that look and feel completely natural.',
     short: 'Custom-designed veneers, crowns, and dentures that look and feel natural.',
   },
   {
     title: 'Orthodontic Braces & Clear Aligners',
-    img: digital,
+    img: braces,
     short: 'Straighten your teeth with aesthetic braces or near-invisible clear aligners.',
   },
   {
     title: 'Dental Implants',
-    img: biomimetic,
+    img: implants,
     short: 'Durable, natural-looking replacements for missing teeth.',
   },
   {
     title: 'Full Mouth Rehabilitation',
-    img: preventive,
+    img: rehab,
     short: 'Comprehensive treatment plans that restore function, aesthetics, and balance to your entire mouth.',
   },
   {
     title: 'Wisdom Tooth Extraction',
-    img: rootcanal,
+    img: wisdom,
     short: 'Safe, comfortable extractions to relieve pain and prevent future problems.',
   },
   {
     title: 'Teeth Whitening',
-    img: cosmetic,
+    img: whitening,
     short: 'In-clinic or take-home whitening for a brighter smile that lasts.',
   },
 ]
@@ -116,7 +115,7 @@ export const TESTIMONIALS = [
   {
     title: 'Amazing Experience!',
     quote:
-      'Dr. Divya truly creates a boutique experience for your teeth. Every step was explained, and I felt confident throughout my smile makeover.',
+      'Dr. Divya truly creates a personal experience for your teeth. Every step was explained, and I felt confident throughout my smile makeover.',
     name: 'Sneha P.',
   },
 ]

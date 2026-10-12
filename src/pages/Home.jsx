@@ -8,9 +8,11 @@ import clinic1 from '../assets/clinic-1.jpg'
 import clinic2 from '../assets/clinic-2.jpg'
 import clinic3 from '../assets/clinic-3.jpg'
 import clinic4 from '../assets/clinic-4.jpg'
+import clinic5 from '../assets/clinic-5.jpg'
+import clinic6 from '../assets/clinic-6.jpg'
 import doctor from '../assets/doctor.jpg'
 
-const CLINIC_PHOTOS = [clinic1, clinic2, clinic3, clinic4, clinic1, clinic2]
+const CLINIC_PHOTOS = [clinic1, clinic2, clinic3, clinic4, clinic5, clinic6]
 
 const HIGHLIGHTS = [
   'Comprehensive Services',
@@ -27,7 +29,7 @@ const VALUES = [
   },
   {
     title: 'Excellence Through Innovation',
-    text: "With advanced techniques and the latest dental innovations, Dentistry by Divya ensures precise, pain-free, and lasting results. Our goal is to combine modern expertise with boutique care, giving you a smile that's as healthy as it is confident.",
+    text: "With advanced techniques and the latest dental innovations, Dentistry by Divya ensures precise, pain-free, and lasting results. Our goal is to combine modern expertise with personal care, giving you a smile that's as healthy as it is confident.",
   },
 ]
 
@@ -42,7 +44,7 @@ export default function Home() {
           </h1>
           <div className="md:pl-6">
             <p className="text-lg leading-relaxed text-muted-foreground max-w-md">
-              Led by {CLINIC.doctors}, we combine years of expertise with advanced digital technology to deliver
+              Led by {CLINIC.doctors}, we combine years of expertise with advanced technology to deliver
               gentle, lasting results for your smile in Jaipur.
             </p>
             <Link
@@ -57,7 +59,7 @@ export default function Home() {
         <div className="mt-14 grid lg:grid-cols-[1.5fr_1fr] gap-6">
           <div className="rounded-3xl bg-cream p-8 md:p-12 border border-border/50">
             <h2 className="font-serif text-3xl md:text-4xl max-w-xl">
-              We provide boutique dental care, tailored just for you.
+              We provide personalized dental care, tailored just for you.
             </h2>
             <div className="mt-8 flex flex-wrap gap-3">
               {SERVICE_TAGS.map((t) => (
@@ -70,14 +72,14 @@ export default function Home() {
               ))}
             </div>
             <p className="mt-10 max-w-xl text-muted-foreground leading-relaxed">
-              <strong className="text-foreground">Precision dentistry with personalized boutique care.</strong> Led by{' '}
+              <strong className="text-foreground">Precision dentistry with personalized care.</strong> Led by{' '}
               <strong className="text-foreground">{CLINIC.doctors}</strong>, we offer advanced dental solutions in a
               modern, comfortable, and patient-friendly environment.
             </p>
           </div>
 
           <div className="relative rounded-3xl overflow-hidden bg-secondary min-h-[440px]">
-            <img src={heroSmile} alt="Boutique dental care" className="absolute inset-0 h-full w-full object-cover" />
+            <img src={heroSmile} alt="Personalized dental care" className="absolute inset-0 h-full w-full object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-primary/70 via-primary/10 to-transparent" />
             <div className="absolute top-6 left-6 right-6 flex items-center justify-between text-primary-foreground">
               <p className="font-serif text-2xl">Services</p>
@@ -181,7 +183,7 @@ export default function Home() {
           <div className="order-1 md:order-2">
             <h2 className="font-serif text-4xl md:text-6xl leading-[1.02]">Meet the Smile Curator</h2>
             <p className="mt-6 text-muted-foreground leading-relaxed max-w-lg">
-              {CLINIC.doctors} is dedicated to blending advanced dental care with a personal, boutique approach. The
+              {CLINIC.doctors} is dedicated to blending advanced dental care with a warm, personal approach. The
               goal is simple: to make every patient feel cared for, comfortable, and confident in their smile.
             </p>
           </div>
@@ -226,7 +228,7 @@ export default function Home() {
               personalized care in a relaxed and friendly environment.
             </p>
             <p className="mt-3 text-muted-foreground max-w-lg leading-relaxed">
-              Experience a boutique for your teeth, only at Dentistry by Divya.
+              Experience care that's truly about you, only at Dentistry by Divya.
             </p>
             <ul className="mt-8 grid sm:grid-cols-2 gap-x-6 gap-y-3 text-sm">
               {HIGHLIGHTS.map((h) => (

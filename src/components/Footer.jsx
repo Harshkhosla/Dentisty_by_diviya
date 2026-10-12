@@ -11,11 +11,11 @@ export default function Footer() {
             <img src={logo} alt={CLINIC.name} className="h-14 w-14 rounded-full object-cover ring-1 ring-gold/40" />
             <div>
               <p className="font-serif text-2xl">{CLINIC.name}</p>
-              <p className="text-xs tracking-[0.3em] uppercase opacity-70">Boutique Dentistry · Jaipur</p>
+              <p className="text-xs tracking-[0.3em] uppercase opacity-70">Dental Care · Jaipur</p>
             </div>
           </div>
           <p className="mt-6 max-w-md text-sm opacity-80 leading-relaxed">
-            Precision dentistry with personalized boutique care. Led by {CLINIC.doctors}.
+            Precision dentistry with personalized care. Led by {CLINIC.doctors}.
           </p>
         </div>
         <div>

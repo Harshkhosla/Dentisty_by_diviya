@@ -25,7 +25,7 @@ export default function About() {
           Because Every Smile Tells a Story.
         </h1>
         <p className="mt-8 max-w-2xl text-muted-foreground leading-relaxed">
-          At Dentistry by Divya, we blend clinical expertise with aesthetic artistry and boutique comfort. Ours is a
+          At Dentistry by Divya, we blend clinical expertise with aesthetic artistry and genuine comfort. Ours is a
           modern practice dedicated to exceptional care in a welcoming environment — equipped with the latest
           technology and staffed by highly trained professionals who prioritize your comfort and well-being.
         </p>
@@ -72,10 +72,10 @@ export default function About() {
           <h2 className="font-serif text-4xl md:text-5xl mt-3 leading-[1.05]">
             Dr. Divya
           </h2>
-          <p className="mt-2 text-sm tracking-[0.3em] uppercase text-muted-foreground">Boutique Dentistry · Jaipur</p>
+          <p className="mt-2 text-sm tracking-[0.3em] uppercase text-muted-foreground">Dental Care · Jaipur</p>
           <p className="mt-6 text-muted-foreground leading-relaxed">
             At Dentistry by Divya, smiles are crafted with care, precision, and a touch of elegance. {CLINIC.doctors}{' '}
-            blends advanced dental care with a personal, boutique approach — with the goal of making every patient feel
+            blends advanced dental care with a warm, personal approach — with the goal of making every patient feel
             cared for, comfortable, and confident in their smile.
           </p>
           <Link

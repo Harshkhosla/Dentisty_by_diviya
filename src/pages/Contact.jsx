@@ -57,11 +57,9 @@ export default function Contact() {
           <p className="mt-4 text-muted-foreground leading-relaxed">
             Dentistry by Divya
             <br />
-            Shop No 22, Rupal Market,
+            5/97 A, Bhawani Singh Lane,
             <br />
-            Opposite Lakshya Indane Gas Agency,
-            <br />
-            Ramnagariya Road, Jagatpura Getor, Jaipur
+            C-Scheme, Jaipur
           </p>
           <div className="mt-8 space-y-6">
             <InfoRow label="Phone">

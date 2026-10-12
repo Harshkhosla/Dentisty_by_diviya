@@ -14,7 +14,7 @@ export default function Services() {
         <p className="mt-8 max-w-2xl text-muted-foreground leading-relaxed">
           From routine check-ups to complex procedures, we're dedicated to keeping your oral health in top shape and
           your smile confident. Every treatment is delivered with attention to detail, advanced technology, and
-          boutique-style care.
+          personalized care.
         </p>
       </section>
 
